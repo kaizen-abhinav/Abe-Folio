@@ -1,13 +1,4 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "extends": ["//"],
-  "pipeline": {
-    "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
-    },
-    "dev": {
-      "cache": false,
-      "persistent": true
-    }
-  }
+  "buildCommand": "npm run build",
+  "framework": "nextjs"
 }
